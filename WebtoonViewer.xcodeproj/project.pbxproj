@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE40318276578F0001445F4 /* WebtoonViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40317276578F0001445F4 /* WebtoonViewerApp.swift */; };
+		EEE4031A276578F0001445F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40319276578F0001445F4 /* ContentView.swift */; };
+		EEE4031C276578F1001445F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4031B276578F1001445F4 /* Assets.xcassets */; };
+		EEE4031F276578F1001445F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4031E276578F1001445F4 /* Preview Assets.xcassets */; };
+		EEE40329276578F1001445F4 /* WebtoonViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40328276578F1001445F4 /* WebtoonViewerTests.swift */; };
+		EEE40333276578F1001445F4 /* WebtoonViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40332276578F1001445F4 /* WebtoonViewerUITests.swift */; };
+		EEE40335276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40334276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE40325276578F1001445F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE4030C276578F0001445F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE40313276578F0001445F4;
+			remoteInfo = WebtoonViewer;
+		};
+		EEE4032F276578F1001445F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE4030C276578F0001445F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE40313276578F0001445F4;
+			remoteInfo = WebtoonViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE40314276578F0001445F4 /* WebtoonViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebtoonViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE40317276578F0001445F4 /* WebtoonViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonViewerApp.swift; sourceTree = "<group>"; };
+		EEE40319276578F0001445F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEE4031B276578F1001445F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE4031E276578F1001445F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEE40324276578F1001445F4 /* WebtoonViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebtoonViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE40328276578F1001445F4 /* WebtoonViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonViewerTests.swift; sourceTree = "<group>"; };
+		EEE4032E276578F1001445F4 /* WebtoonViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebtoonViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE40332276578F1001445F4 /* WebtoonViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonViewerUITests.swift; sourceTree = "<group>"; };
+		EEE40334276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE40311276578F0001445F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE40321276578F1001445F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4032B276578F1001445F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE4030B276578F0001445F4 = {
+			isa = PBXGroup;
+			children = (
+				EEE40316276578F0001445F4 /* WebtoonViewer */,
+				EEE40327276578F1001445F4 /* WebtoonViewerTests */,
+				EEE40331276578F1001445F4 /* WebtoonViewerUITests */,
+				EEE40315276578F0001445F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE40315276578F0001445F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE40314276578F0001445F4 /* WebtoonViewer.app */,
+				EEE40324276578F1001445F4 /* WebtoonViewerTests.xctest */,
+				EEE4032E276578F1001445F4 /* WebtoonViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE40316276578F0001445F4 /* WebtoonViewer */ = {
+			isa = PBXGroup;
+			children = (
+				EEE40317276578F0001445F4 /* WebtoonViewerApp.swift */,
+				EEE40319276578F0001445F4 /* ContentView.swift */,
+				EEE4031B276578F1001445F4 /* Assets.xcassets */,
+				EEE4031D276578F1001445F4 /* Preview Content */,
+			);
+			path = WebtoonViewer;
+			sourceTree = "<group>";
+		};
+		EEE4031D276578F1001445F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4031E276578F1001445F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEE40327276578F1001445F4 /* WebtoonViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE40328276578F1001445F4 /* WebtoonViewerTests.swift */,
+			);
+			path = WebtoonViewerTests;
+			sourceTree = "<group>";
+		};
+		EEE40331276578F1001445F4 /* WebtoonViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE40332276578F1001445F4 /* WebtoonViewerUITests.swift */,
+				EEE40334276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift */,
+			);
+			path = WebtoonViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE40313276578F0001445F4 /* WebtoonViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE40338276578F1001445F4 /* Build configuration list for PBXNativeTarget "WebtoonViewer" */;
+			buildPhases = (
+				EEE40310276578F0001445F4 /* Sources */,
+				EEE40311276578F0001445F4 /* Frameworks */,
+				EEE40312276578F0001445F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebtoonViewer;
+			productName = WebtoonViewer;
+			productReference = EEE40314276578F0001445F4 /* WebtoonViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE40323276578F1001445F4 /* WebtoonViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE4033B276578F1001445F4 /* Build configuration list for PBXNativeTarget "WebtoonViewerTests" */;
+			buildPhases = (
+				EEE40320276578F1001445F4 /* Sources */,
+				EEE40321276578F1001445F4 /* Frameworks */,
+				EEE40322276578F1001445F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE40326276578F1001445F4 /* PBXTargetDependency */,
+			);
+			name = WebtoonViewerTests;
+			productName = WebtoonViewerTests;
+			productReference = EEE40324276578F1001445F4 /* WebtoonViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE4032D276578F1001445F4 /* WebtoonViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE4033E276578F1001445F4 /* Build configuration list for PBXNativeTarget "WebtoonViewerUITests" */;
+			buildPhases = (
+				EEE4032A276578F1001445F4 /* Sources */,
+				EEE4032B276578F1001445F4 /* Frameworks */,
+				EEE4032C276578F1001445F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE40330276578F1001445F4 /* PBXTargetDependency */,
+			);
+			name = WebtoonViewerUITests;
+			productName = WebtoonViewerUITests;
+			productReference = EEE4032E276578F1001445F4 /* WebtoonViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE4030C276578F0001445F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EEE40313276578F0001445F4 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					EEE40323276578F1001445F4 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = EEE40313276578F0001445F4;
+					};
+					EEE4032D276578F1001445F4 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = EEE40313276578F0001445F4;
+					};
+				};
+			};
+			buildConfigurationList = EEE4030F276578F0001445F4 /* Build configuration list for PBXProject "WebtoonViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE4030B276578F0001445F4;
+			productRefGroup = EEE40315276578F0001445F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE40313276578F0001445F4 /* WebtoonViewer */,
+				EEE40323276578F1001445F4 /* WebtoonViewerTests */,
+				EEE4032D276578F1001445F4 /* WebtoonViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE40312276578F0001445F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4031F276578F1001445F4 /* Preview Assets.xcassets in Resources */,
+				EEE4031C276578F1001445F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE40322276578F1001445F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4032C276578F1001445F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE40310276578F0001445F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4031A276578F0001445F4 /* ContentView.swift in Sources */,
+				EEE40318276578F0001445F4 /* WebtoonViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE40320276578F1001445F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE40329276578F1001445F4 /* WebtoonViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4032A276578F1001445F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE40333276578F1001445F4 /* WebtoonViewerUITests.swift in Sources */,
+				EEE40335276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE40326276578F1001445F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE40313276578F0001445F4 /* WebtoonViewer */;
+			targetProxy = EEE40325276578F1001445F4 /* PBXContainerItemProxy */;
+		};
+		EEE40330276578F1001445F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE40313276578F0001445F4 /* WebtoonViewer */;
+			targetProxy = EEE4032F276578F1001445F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEE40336276578F1001445F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE40337276578F1001445F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE40339276578F1001445F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WebtoonViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = S4P29M3R96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RyugaSoft.WebtoonViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE4033A276578F1001445F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WebtoonViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = S4P29M3R96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RyugaSoft.WebtoonViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEE4033C276578F1001445F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4P29M3R96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RyugaSoft.WebtoonViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebtoonViewer.app/WebtoonViewer";
+			};
+			name = Debug;
+		};
+		EEE4033D276578F1001445F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4P29M3R96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RyugaSoft.WebtoonViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebtoonViewer.app/WebtoonViewer";
+			};
+			name = Release;
+		};
+		EEE4033F276578F1001445F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4P29M3R96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RyugaSoft.WebtoonViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebtoonViewer;
+			};
+			name = Debug;
+		};
+		EEE40340276578F1001445F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4P29M3R96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RyugaSoft.WebtoonViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebtoonViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE4030F276578F0001445F4 /* Build configuration list for PBXProject "WebtoonViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE40336276578F1001445F4 /* Debug */,
+				EEE40337276578F1001445F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE40338276578F1001445F4 /* Build configuration list for PBXNativeTarget "WebtoonViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE40339276578F1001445F4 /* Debug */,
+				EEE4033A276578F1001445F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE4033B276578F1001445F4 /* Build configuration list for PBXNativeTarget "WebtoonViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4033C276578F1001445F4 /* Debug */,
+				EEE4033D276578F1001445F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE4033E276578F1001445F4 /* Build configuration list for PBXNativeTarget "WebtoonViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4033F276578F1001445F4 /* Debug */,
+				EEE40340276578F1001445F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE4030C276578F0001445F4 /* Project object */;
+}
