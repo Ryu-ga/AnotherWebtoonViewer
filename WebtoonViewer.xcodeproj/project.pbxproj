@@ -14,6 +14,9 @@
 		EEE40329276578F1001445F4 /* WebtoonViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40328276578F1001445F4 /* WebtoonViewerTests.swift */; };
 		EEE40333276578F1001445F4 /* WebtoonViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40332276578F1001445F4 /* WebtoonViewerUITests.swift */; };
 		EEE40335276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE40334276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift */; };
+		EEE4034227657A09001445F4 /* Webtoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4034127657A09001445F4 /* Webtoon.swift */; };
+		EEE4034427657AA3001445F4 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4034327657AA3001445F4 /* Methods.swift */; };
+		EEE4034727657ACF001445F4 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EEE4034627657ACF001445F4 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 		EEE4032E276578F1001445F4 /* WebtoonViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebtoonViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE40332276578F1001445F4 /* WebtoonViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonViewerUITests.swift; sourceTree = "<group>"; };
 		EEE40334276578F1001445F4 /* WebtoonViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEE4034127657A09001445F4 /* Webtoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webtoon.swift; sourceTree = "<group>"; };
+		EEE4034327657AA3001445F4 /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE4034727657ACF001445F4 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +104,8 @@
 				EEE40319276578F0001445F4 /* ContentView.swift */,
 				EEE4031B276578F1001445F4 /* Assets.xcassets */,
 				EEE4031D276578F1001445F4 /* Preview Content */,
+				EEE4034127657A09001445F4 /* Webtoon.swift */,
+				EEE4034327657AA3001445F4 /* Methods.swift */,
 			);
 			path = WebtoonViewer;
 			sourceTree = "<group>";
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = WebtoonViewer;
+			packageProductDependencies = (
+				EEE4034627657ACF001445F4 /* SwiftSoup */,
+			);
 			productName = WebtoonViewer;
 			productReference = EEE40314276578F0001445F4 /* WebtoonViewer.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = EEE4030B276578F0001445F4;
+			packageReferences = (
+				EEE4034527657ACF001445F4 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = EEE40315276578F0001445F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE4034427657AA3001445F4 /* Methods.swift in Sources */,
 				EEE4031A276578F0001445F4 /* ContentView.swift in Sources */,
+				EEE4034227657A09001445F4 /* Webtoon.swift in Sources */,
 				EEE40318276578F0001445F4 /* WebtoonViewerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4P29M3R96;
@@ -531,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4P29M3R96;
@@ -585,6 +603,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEE4034527657ACF001445F4 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEE4034627657ACF001445F4 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE4034527657ACF001445F4 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EEE4030C276578F0001445F4 /* Project object */;
 }
